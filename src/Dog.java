@@ -1,6 +1,8 @@
 public class Dog extends Animal {
     public Dog (String nom , int age ) {
           super(nom, age);
+          this.color= "black";
+            setHeight(6);
 
 
     }

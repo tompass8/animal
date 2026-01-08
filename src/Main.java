@@ -17,5 +17,9 @@ public class Main {
         c.eat();
         c.eat(3);
 
+        //System.out.println(dog.height);
+        //System.out.println(c.height);//private inaccessible en dehors de la classe
+       //System.out.println(dog.color);
+        //System.out.println(c.age);
     }
 }

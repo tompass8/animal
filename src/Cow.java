@@ -2,6 +2,8 @@ public class Cow extends Animal {
 
     public Cow(String nom, int age) {
         super(nom, age);
+        this.color= "white";
+        setHeight(10);
     }
 
     @Override
@@ -17,4 +19,5 @@ public class Cow extends Animal {
     @Override
     public void eat(int amount) {
         System.out.println("the cow is eating"+ amount); }
+
 }
