@@ -8,4 +8,12 @@ public class Cow extends Animal {
     public void produireSon() {
         System.out.println(" Meuh ");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("the dog is eating");
+
+
+    }
+
 }

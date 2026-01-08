@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     protected String nom;
     protected int age;
 
@@ -14,4 +14,10 @@ public class Animal {
     public String getNom() {
         return nom;
     }
+
+    public static void display() {
+        System.out.println("tous les animaux font du bruit");
+    }
+
+    public abstract void eat ();
 }
