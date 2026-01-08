@@ -10,5 +10,12 @@ public class Main {
         Dog dog = new Dog("toto", 5);
         dog.eat();
         c.eat();
+
+        dog.eat();
+        dog.eat(5);
+
+        c.eat();
+        c.eat(3);
+
     }
 }
